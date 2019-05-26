@@ -33,4 +33,4 @@ const App = () => {
 }
 
 ReactDOM.render(<App />, document.querySelector('#root'))
-serviceWorker.unregister()
+serviceWorker.register()
