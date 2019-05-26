@@ -1,12 +1,36 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { Provider } from 'react-redux'
+import { CssBaseline } from '@material-ui/core'
+import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles'
+import { ThemeProvider } from '@material-ui/styles'
+import blue from '@material-ui/core/colors/blue'
+import 'typeface-roboto'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import store from './store'
+import ToDo from './ToDo'
+import * as serviceWorker from './serviceWorker'
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const theme = responsiveFontSizes(createMuiTheme({
+  palette: {
+    type: 'dark',
+    primary: blue
+  },
+  typography: {
+    useNextVariants: true
+  }
+}))
+
+const App = () => {
+  return (
+    <Provider store={store}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <ToDo />
+      </ThemeProvider>
+    </Provider>
+  )
+}
+
+ReactDOM.render(<App />, document.querySelector('#root'))
+serviceWorker.unregister()
