@@ -2,13 +2,17 @@
   "name": "todos",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hashmd.github.io/travis",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "lint": "standard --verbose | snazzy",
+    "clean": "rm -r build"
   },
   "standard": {
     "global": [
+      "expect",
       "fetch",
       "it",
       "localStorage"
