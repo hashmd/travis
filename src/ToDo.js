@@ -54,7 +54,7 @@ const ToDo = props => {
 
         <Input
           type='text'
-          placeholder='Redacta tu tarea'
+          placeholder='Añade una tarea'
           value={input}
           onChange={ev => setInput(ev.target.value)}
         />
