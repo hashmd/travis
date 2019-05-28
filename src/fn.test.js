@@ -10,7 +10,7 @@ it('should sum', () => {
 })
 
 it('should sub', () => {
-  expect(sub(1, 1)).toEqual(3)
+  expect(sub(1, 1)).toEqual(0)
 })
 
 it('should mul', () => {
