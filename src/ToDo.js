@@ -47,7 +47,7 @@ const ToDo = props => {
     <AppBar position='fixed'>
       <Toolbar>
         <Typography variant='h6' color='inherit'>
-          To Do's
+          Mis Tareas
         </Typography>
 
         <div className={classes.grow} />
