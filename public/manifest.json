@@ -1,6 +1,6 @@
 {
-  "short_name": "ToDo's",
-  "name": "ToDo's",
+  "short_name": "Tareas",
+  "name": "Pendientes",
   "icons": [
     {
       "src":"react.png",
