@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/travis/static/js/main.3ff3ea2a.chunk.js",
+    "main.js.map": "/travis/static/js/main.3ff3ea2a.chunk.js.map",
+    "runtime~main.js": "/travis/static/js/runtime~main.91114876.js",
+    "runtime~main.js.map": "/travis/static/js/runtime~main.91114876.js.map",
+    "static/css/2.03e2b43e.chunk.css": "/travis/static/css/2.03e2b43e.chunk.css",
+    "static/js/2.590aec07.chunk.js": "/travis/static/js/2.590aec07.chunk.js",
+    "static/js/2.590aec07.chunk.js.map": "/travis/static/js/2.590aec07.chunk.js.map",
+    "index.html": "/travis/index.html",
+    "precache-manifest.9be1c704814c640db105854f3df40500.js": "/travis/precache-manifest.9be1c704814c640db105854f3df40500.js",
+    "service-worker.js": "/travis/service-worker.js",
+    "static/css/2.03e2b43e.chunk.css.map": "/travis/static/css/2.03e2b43e.chunk.css.map",
+    "static/media/index.css": "/travis/static/media/roboto-latin-900italic.bc833e72.woff"
+  }
+}

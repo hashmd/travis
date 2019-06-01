@@ -1,0 +1,15 @@
+{
+  "short_name": "Tareas",
+  "name": "Pendientes",
+  "icons": [
+    {
+      "src":"react.png",
+      "type":"image/png",
+      "sizes":"512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#212121",
+  "background_color": "#424242"
+}
